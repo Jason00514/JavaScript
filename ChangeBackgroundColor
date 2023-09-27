@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>プログラミングテスト</title>
+    <script>
+      function setBackColorGreen(){
+          //document="#ff0000";
+          //document.body.bgcolor = '#ff0000';
+          document.body.style.backgroundColor = "#ccffcc";
+        }
+      
+      function setBg(fcolor){
+        document.body.style.backgroundColor = fcolor;
+      }
+
+      function mfAlert(){
+        alert("Javascript test");
+      }
+        
+
+    </script>
+  </head>
+
+  <body>
+    <h1>Javascript test</h1>
+    <script>mfAlert;</script>
+
+    <button onclick="setBackColorGreen();">Green background color</button>
+    <button onclick="setBg('#0000ff');">color</button>
+    <button onclick="mfAlert();">alert test</button>
+    </body>
+</html>
